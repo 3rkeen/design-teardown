@@ -4,6 +4,8 @@ body {
 
 header {
   background-color: brown;
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -12,4 +14,8 @@ main {
 
 footer {
   background-color: darkblue;
+}
+
+header ul {
+  display: flex;
 }
