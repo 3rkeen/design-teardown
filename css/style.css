@@ -164,8 +164,6 @@ main {
   cursor: pointer;
 }
 
-
-
 .author-card-box-2 {
   min-width: 620px;
   background-color: rgba(250, 246, 246, 0.02);
@@ -276,8 +274,54 @@ article {
 
 .post-text {
   background-color: lightgray;
-  height: 400px;
+  text-align: left;
+  padding: 30px;
+  overflow: hidden;
   width: 25%;
+  min-width: 350px;
+  color: #333;
+}
+
+.post-text:hover {
+  background-color: #fff;
+  transform: scale(1.15);
+  transition: color .5s ease-out;
+  cursor: pointer;
+}
+
+.post-text time {
+  font-family: Elena;
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: .5em;
+  letter-spacing: 1px;
+}
+
+.post-text h3 {
+  font-family: Mija;
+  font-size: calc(1.2em + .2vw);
+  margin: 0 0 1em;
+  line-height: 1.2;
+  color: #333;
+  text-decoration: underline;
+
+}
+
+.post-text span>* {
+  font-family: Mija;
+  color: #666;
+  font-weight: 700;
+  font-size: .8em;
+}
+
+.post-text p {
+  margin: 20px 0;
+}
+
+.post-text i {
+  padding-top: 45px;
+  font-size: 40px;
 }
 
 .adds {
