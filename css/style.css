@@ -219,6 +219,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .link-list ul {
@@ -284,4 +285,24 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.bird-img {
+  position: absolute;
+  right: 8rem;
+  bottom: 100px;
+
+  width: 10rem;
+  height: 10rem;
+  background-color: grey;
+  background-image: url(/c844337352cace40e2973b30e2ebefad4b0f55ad/efa8c/images/footer/tablet__left.svg);
+}
+
+.cat-img {
+  position: absolute;
+  left: 8rem;
+  bottom: 100px;
+  width: 10rem;
+  height: 10rem;
+  background-color: grey;
 }
