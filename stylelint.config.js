@@ -8,7 +8,6 @@ module.exports = {
         "blockless-after-same-name-blockless",
         "first-nested",
       ],
-      ignore: ["after-comment"],
       ignore: ["font-family-no-missing-generic-family-keyword"],
     }],
     "at-rule-name-case": "lower",
