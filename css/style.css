@@ -386,27 +386,67 @@ article {
 
 .ethical-design {
   background-color: #76d0a4;
-  background-image: linear-gradient(#76d0a4 50%, #7ab99a 100%);
+  /* background-image: linear-gradient(#76d0a4 50%, #7ab99a 100%); */
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   width: 100%;
-  height: 500px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+..ethical-design p {
+  background-color: blue;
 }
 
 .main-person {
   width: 100%;
-  height: 300px;
+  height: 250px;
   display: flex;
-  text-align: left;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
-/* .main-person img {
-  display: block;
-} */
+.main-person img {
+  border: 5px solid #ce6a61;
+  border-radius: 5px;
+  height: 200px;
+  width: 50rem;
+}
+
+.main-person-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid blue;
+  height: 230px;
+  min-width: 400px;
+}
 
 .persons {
   width: 50%;
-  height: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.persons img {
+  border: 5px solid #ce6a61;
+  border-radius: 5px;
+  height: 65px;
+  width: 90px;
+}
+
+.persons-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid blue;
+  height: 120px;
+  text-align: left;
+  min-width: 100px;
 }
 
 .design-system {
@@ -437,7 +477,6 @@ article {
 }
 
 .grid-col-1 div:nth-child(3) {
-  border: 1px solid black;
   width: 90%;
   font-size: 1.3em;
   text-align: left;
@@ -502,7 +541,6 @@ footer {
 }
 
 .link-list ul li {
-  border: 1px solid green;
   padding: 1rem 2rem;
   margin: 0 0.5rem;
 }
@@ -518,7 +556,6 @@ footer {
   justify-content: center;
   text-align: center;
   width: 40%;
-  border: 1px solid green;
   font-size: 1.2rem;
 }
 
@@ -534,7 +571,6 @@ footer {
 
 .social-links {
   width: 60%;
-  border: 1px solid green;
 }
 
 .social-links ul {
@@ -545,7 +581,6 @@ footer {
 }
 
 .social-links ul li {
-  border: 1px solid green;
   padding: 1rem 2rem;
   margin: 0 0.5rem;
   text-align: center;
@@ -563,7 +598,6 @@ footer {
   position: absolute;
   left: 5rem;
   bottom: 50px;
-
   width: 11rem;
   height: 12rem;
   background-color: grey;
