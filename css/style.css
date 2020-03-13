@@ -47,6 +47,7 @@ header {
   color: #fff;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 header ul {
@@ -72,6 +73,8 @@ header ul li a {
 header ul li a img {
   transform: scale(1) rotate(-25deg);
   transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  width: 39px;
+  height: 44px;
 }
 
 .image-wrapper img {
