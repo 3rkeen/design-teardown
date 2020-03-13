@@ -7,6 +7,11 @@
   line-height: 1.15;
 }
 
+body {
+  background-color: #f6f3f2;
+}
+
+
 @font-face {
   font-family: ElenaInitial;
   src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"),
@@ -93,7 +98,12 @@ main {
 
 .more-info {
   display: inline-block;
-  margin: 10px auto;
+  margin: 60px auto 100px;
+  border-bottom: 5px solid #d33a2c;
+  font-size: 22px;
+  color: #333;
+  text-transform: uppercase;
+
 }
 
 .title {
@@ -139,10 +149,6 @@ main {
 
 .header-section>* {
   font-family: Mija;
-  border: 1px solid black;
-}
-
-.header-section>* {
   min-width: 380px;
   max-width: 765px;
   width: 50%;
@@ -150,18 +156,17 @@ main {
   padding: 10px;
 }
 
-
-.author-card-box-1 {
-  min-width: 620px;
-  background-color: rgba(0, 0, 0, 0.08);
-
-}
-
 .author-card-box-1:hover,
 .author-card-box-2:hover,
 .author-card-box-3:hover,
 .author-card-box-4:hover {
   cursor: pointer;
+}
+
+.author-card-box-1 {
+  min-width: 620px;
+  background-color: rgba(0, 0, 0, 0.08);
+
 }
 
 .author-card-box-2 {
@@ -220,9 +225,10 @@ main {
   margin-left: 10px;
 }
 
-.article-author-title h2 {
+.article-author-title em {
   font-family: ElenaInitial;
   font-weight: 100;
+  font-size: 24px;
   margin-left: 15px;
 }
 
@@ -263,19 +269,17 @@ main {
   font-size: 48px;
 }
 
-
 article {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 50px;
-  background-color: #f6f3f2;
   color: #333;
 }
 
 .post-text {
-  background-color: lightgray;
   text-align: left;
   padding: 30px;
+  margin-bottom: 50px;
   overflow: hidden;
   width: 25%;
   min-width: 350px;
@@ -301,11 +305,11 @@ article {
 .post-text h3 {
   font-family: Mija;
   font-size: calc(1.2em + .2vw);
-  margin: 0 0 1em;
+  margin: 1em 0;
   line-height: 1.2;
-  color: #333;
+  color: #000;
+  font-weight: bolder;
   text-decoration: underline;
-
 }
 
 .post-text span>* {
@@ -316,19 +320,71 @@ article {
 }
 
 .post-text p {
-  margin: 20px 0;
+  line-height: 1.8;
+  font-size: large;
+  margin: 40px 0 160px;
 }
 
 .post-text i {
-  padding-top: 45px;
+  color: #d33a2c;
   font-size: 40px;
 }
 
 .adds {
-  background-color: lightcyan;
+  background-color: #d33a2c;
   width: 50%;
-  height: 400px;
+  margin: 10px 0 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  border-radius: 11px;
+  font-family: Elena;
+  cursor: pointer;
 }
+
+.adds>* {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+.adds-image {
+  align-self: center;
+  padding: 15px 0;
+  width: 40%;
+}
+
+.adds p {
+  padding-top: 40px;
+  line-height: 1.5;
+  font-size: 22px;
+
+}
+
+.adds-title {
+  text-decoration-color: #ce6a61;
+  font-family: Mija;
+  font-weight: 1000;
+  font-size: 48px;
+}
+
+.adds-btn {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 11px;
+  text-decoration: none;
+  color: #267dcc;
+  cursor: pointer;
+  margin: 10% 0 5%;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Mija;
+}
+
+.adds small a {
+  color: #fff;
+}
+
 
 .ethical-design {
   background-color: #76d0a4;
@@ -360,10 +416,13 @@ article {
 
 .smashing-newsletter {
   width: 100%;
-  height: 400px;
-  background-color: #d33a2c;
-  margin: 20px;
   border-radius: 10px;
+  padding: 2.5rem 0;
+}
+
+.newsletter-image {
+  margin: 0 auto;
+  width: 35%;
 }
 
 footer {
