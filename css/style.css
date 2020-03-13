@@ -6,31 +6,17 @@
   line-height: 1.15;
 }
 
+body {
+  background-color: #f6f3f2;
+}
+
 a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   color: #267dcc;
 }
 
-body {
-  background-color: #f6f3f2;
-}
-
-@font-face {
-  font-family: ElenaInitial;
-  src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"),
-    url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff");
-}
-
-@font-face {
-  font-family: Elena;
-  src: url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"),
-    url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff");
-}
-
-@font-face {
-  font-family: Mija;
-  src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"),
-    url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff");
+h6 {
+  display: none;
 }
 
 header {
@@ -129,7 +115,7 @@ main {
 }
 
 .shadow::after {
-  content: "";
+  content: '';
   display: block;
   height: 30px;
   width: 190px;
@@ -395,9 +381,8 @@ article {
 
 .ethical-design {
   background-color: #76d0a4;
-  /* background-image: linear-gradient(#76d0a4 50%, #7ab99a 100%); */
+  padding: 1rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   font-family: Elena;
@@ -527,7 +512,7 @@ article {
 .persons-text span {
   color: #666 !important;
   font-weight: 700;
-  font-size: calc(.9em + .1vw);
+  font-size: calc(0.9em + 0.1vw);
 }
 
 .persons-text b {
@@ -535,8 +520,6 @@ article {
   font-size: calc(18px + 1vw);
   line-height: 1.2;
 }
-
-
 
 .design-system {
   width: 100%;
@@ -613,7 +596,6 @@ article {
   font-family: Mija;
   text-decoration: none;
 }
-
 
 .newsletter-subscribe-box a:hover,
 .adds-btn:hover {
