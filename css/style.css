@@ -1,3 +1,5 @@
+/* start CSS start */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,8 @@
 body {
   background-color: #f6f3f2;
 }
+
+/* start FONT start */
 
 /* stylelint-disable */
 
@@ -34,6 +38,8 @@ body {
     url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff")
       format("woff");
 }
+
+/* start HEADER start */
 
 header {
   background-color: #d33a2c;
@@ -107,6 +113,8 @@ header ul li a img:hover {
   border: 3px solid white;
   cursor: pointer;
 }
+
+/* end HEADER end */
 
 main {
   position: relative;

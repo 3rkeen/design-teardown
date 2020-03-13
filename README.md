@@ -13,11 +13,11 @@ This project is breaking apart the website for a popular design magazine – Sma
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/3rkeen/New-York-Times-Clone/6d97b3a72c2abcda7f449b5465317c6e3a4ca775/index.html)
+[Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/cfa67e674fe211db00479743b8eff05af6680396/index.html)
 
 ## Getting Started
 
-Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/New-York-Times-Clone/6d97b3a72c2abcda7f449b5465317c6e3a4ca775/index.html)
+Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/cfa67e674fe211db00479743b8eff05af6680396/index.html)
 
 ## Authors
 
