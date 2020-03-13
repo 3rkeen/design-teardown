@@ -386,9 +386,8 @@ article {
 
 .ethical-design {
   background-color: #76d0a4;
-  /* background-image: linear-gradient(#76d0a4 50%, #7ab99a 100%); */
+  padding: 1rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   font-family: Elena;
@@ -593,6 +592,29 @@ article {
 .newsletter-image {
   margin: 0 auto;
   width: 35%;
+}
+
+.newsletter-subscribe-box {
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.newsletter-subscribe-box input {
+  cursor: pointer;
+  border: none;
+}
+
+.newsletter-subscribe-box a {
+  font-family: Mija;
+  text-decoration: none;
+}
+
+.newsletter-subscribe-box a:hover,
+.adds-btn:hover {
+  color: #d33a2c;
 }
 
 footer {
