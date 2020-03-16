@@ -13,11 +13,11 @@ This project is breaking apart the website for a popular design magazine – Sma
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/cfa67e674fe211db00479743b8eff05af6680396/index.html)
+[Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/521e95f55294b94d0c7b1b18beaa00add014bd80/index.html)
 
 ## Getting Started
 
-Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/cfa67e674fe211db00479743b8eff05af6680396/index.html)
+Click once on the [Live Demo Link](https://rawcdn.githack.com/3rkeen/design-teardown/521e95f55294b94d0c7b1b18beaa00add014bd80/index.html)
 
 ## Authors
 
